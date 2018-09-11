@@ -1,1 +1,5 @@
-# arctouch-challenge
+# install dependencies
+npm install
+
+# compile
+gulp
