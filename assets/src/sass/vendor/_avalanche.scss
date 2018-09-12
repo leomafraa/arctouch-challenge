@@ -37,9 +37,9 @@ $av-breakpoints:  (
 $av-enable-grid-center:       false !default;
 $av-enable-grid-cell-center:  false !default;
 $av-enable-grid-right:        false !default;
-$av-enable-grid-middle:       false !default;
+$av-enable-grid-middle:       true !default;
 $av-enable-grid-bottom:       false !default;
-$av-enable-grid-flush:        false !default;
+$av-enable-grid-flush:        true !default;
 $av-enable-grid-tiny:         false !default;
 $av-enable-grid-small:        false !default;
 $av-enable-grid-large:        false !default;
