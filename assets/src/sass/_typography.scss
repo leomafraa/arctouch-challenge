@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeueMedium.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/HelveticaNeue-BoldItalic.woff2') format('woff2'),
+        url('../fonts/HelveticaNeue-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Semibold.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Novecento sans wide Book';
+    src: url('../fonts/Novecentosanswide-Bold.woff2') format('woff2'),
+        url('../fonts/Novecentosanswide-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Helvetica Neue';
+}
