@@ -46,8 +46,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
     font-family: 'Myriad Pro';
     font-weight: 600;
 }
@@ -67,6 +66,14 @@ h3, .h3 {
     color: $title-color;
 }
 
+h6, .h6 {
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Helvetica Neue';
+    font-size: 18px;
+    font-weight: bold;
+    color: $title-color;
+}
 
 p, .p {
     margin: 0;

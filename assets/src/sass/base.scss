@@ -20,3 +20,36 @@
 .default-section--bg {
 	background-color: $bg-color;
 }
+
+.bullets {
+	margin: 0;
+	margin-top: 50px;
+	padding: 0;
+	list-style: none;
+}
+
+.bullet-item {
+	display: inline-block;
+
+	&:not(:last-child) {
+		margin-right: 5px;
+	}
+}
+
+.bullet-item__link {
+	display: block;
+	width: 15px;
+	height: 15px;
+	border: 2px solid $primary-color;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.3s ease;
+
+	&:hover {
+		opacity: 0.6;
+	}
+}
+
+.bullet-item__link--active {
+	background-color: $primary-color;
+}
