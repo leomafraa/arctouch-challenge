@@ -1,45 +1,45 @@
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url('../fonts/HelveticaNeue.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/HelveticaNeue.woff2') format('woff2'),
+  url('../fonts/HelveticaNeue.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'HelveticaNeue';
-    src: url('../fonts/HelveticaNeueMedium.woff2') format('woff2'),
-        url('../fonts/HelveticaNeueMedium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeueMedium.woff2') format('woff2'),
+  url('../fonts/HelveticaNeueMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url('../fonts/HelveticaNeue-Italic.woff2') format('woff2'),
-        url('../fonts/HelveticaNeue-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/HelveticaNeue-Italic.woff2') format('woff2'),
+  url('../fonts/HelveticaNeue-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Myriad Pro';
-    src: url('../fonts/MyriadPro-Semibold.woff2') format('woff2'),
-        url('../fonts/MyriadPro-Semibold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro-Semibold.woff2') format('woff2'),
+  url('../fonts/MyriadPro-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Novecento sans wide Book';
-    src: url('../fonts/Novecentosanswide-Bold.woff2') format('woff2'),
-        url('../fonts/Novecentosanswide-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'Novecento sans wide Book';
+  src: url('../fonts/Novecentosanswide-Bold.woff2') format('woff2'),
+  url('../fonts/Novecentosanswide-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
 }
 
 body {
-    font-family: 'Helvetica Neue';
+  font-family: 'Helvetica Neue';
 }
 
 h1,
@@ -47,51 +47,51 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Myriad Pro';
-    font-weight: 600;
+  font-family: 'Myriad Pro';
+  font-weight: 600;
 }
 
 h2, .h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 30px;
-    color: $title-color;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: $title-color;
 }
 
 h3, .h3 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 24px;
-    line-height: 0.75;
-    color: $title-color;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 0.75;
+  color: $title-color;
 }
 
 h6, .h6 {
-    margin: 0;
-    margin-bottom: 15px;
-    font-family: 'Helvetica Neue';
-    font-size: 18px;
-    font-weight: bold;
-    color: $title-color;
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: 'Helvetica Neue';
+  font-size: 18px;
+  font-weight: bold;
+  color: $title-color;
 }
 
 p, .p {
-    margin: 0;
-    font-size: 16px;
-    line-height: 1.625;
-    color: $text-color;
-
-    &:not(:last-child) {
-        margin-bottom: 15px;
-    }
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.625;
+  color: $text-color;
+  
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .text-center--small {
-    max-width: 90%;
-    margin: 0 auto;
+  max-width: 90%;
+  margin: 0 auto;
 }

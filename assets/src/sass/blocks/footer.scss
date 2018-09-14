@@ -1,0 +1,13 @@
+.footer-menu__item {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer-menu__link {
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}

@@ -1,24 +1,22 @@
 .about-list {
-	margin: 0;
 	padding-left: 45px;
-	list-style: none;
 }
 
 .about-list__item {
 	&:not(:last-child) {
 		margin-bottom: 8px;
 	}
-
+	
 	i, span {
 		display: inline-block;
 		vertical-align: middle;
 	}
-
+	
 	i {
 		font-size: 22px;
 		color: $title-color;
 	}
-
+	
 	span {
 		margin-left: 8px;
 	}
@@ -26,7 +24,7 @@
 
 .video-about {
 	padding-left: 80px;
-
+	
 	video {
 		width: 100%;
 		height: 280px;

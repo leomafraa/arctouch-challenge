@@ -1,0 +1,29 @@
+.socials-list {
+    margin-top: 25px;
+}
+
+.socials-list__item {
+    display: inline-block;
+
+    &:not(:last-child) {
+        margin-right: 8px;
+    }
+}
+
+.socials-list__link {
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: $bg-socials;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: $white-color;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: $primary-color;
+    }
+}

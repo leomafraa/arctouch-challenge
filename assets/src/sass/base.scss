@@ -34,7 +34,7 @@
 
 .bullet-item {
 	display: inline-block;
-
+	
 	&:not(:last-child) {
 		margin-right: 5px;
 	}
@@ -48,7 +48,7 @@
 	border-radius: 50%;
 	cursor: pointer;
 	transition: all 0.3s ease;
-
+	
 	&:hover {
 		opacity: 0.6;
 	}
@@ -58,4 +58,10 @@
 	.bullet-item__link {
 		background-color: $primary-color;
 	}
+}
+
+.default-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }

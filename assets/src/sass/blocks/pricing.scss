@@ -1,3 +1,7 @@
+#pricing {
+	margin-bottom: 70px;
+}
+
 .pricing-items {
 	margin-top: 40px!important;
 	margin-bottom: -130px!important;
@@ -31,25 +35,22 @@
   font-size: 42px;
   line-height: 0.5;
   color: $title-color;
-
+  
   span {
-  	display: inline-block;
+    display: inline-block;
     vertical-align: top;
-  	font-size: 24px;
+    font-size: 24px;
   }
 }
 
 .list-pricing {
-	margin: 0;
 	margin-top: 25px;
-	padding: 0;
-	list-style: none;
 }
 
 .list-pricing__item {
 	padding: 10px 0;
 	border-top: 1px solid $border-color-secondary;
-
+  
 	&:last-child {
 		padding-bottom: 0;
 	}
@@ -66,15 +67,15 @@
 	background-color: $btn-bg-color;
 	text-transform: uppercase;
 	font-family: 'Myriad Pro';
-  	font-size: 15px;
-  	font-weight: 600;
-  	line-height: 1;
-  	color: $white-color;
-  	text-decoration: none;
-  	transition: all 0.3s ease;
-
-  	&:hover {
-  		background-color: $white-color;
-  		color: $btn-bg-color;
-  	}
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  color: $white-color;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background-color: $white-color;
+    color: $btn-bg-color;
+  }
 }
