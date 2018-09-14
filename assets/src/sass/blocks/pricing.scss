@@ -1,0 +1,79 @@
+.pricing-items {
+	margin-top: 40px!important;	
+}
+
+.pricing-column {
+	margin: 0 2px;
+	background-color: $white-color;
+}
+
+.pricing-column__header {
+	padding: 15px;
+	background-color: $primary-color;
+}
+
+.pricing-column__content {
+	padding: 20px;
+}
+
+.pricing-column__title {
+	margin: 0;
+	font-family: 'Myriad Pro';
+	font-size: 28px;
+	font-weight: 600;
+	color: $white-color;
+}
+
+.pricing-column__price {
+  margin: 0;
+  font-family: 'Novecento sans wide Book';
+  font-size: 42px;
+  line-height: 0.5;
+  color: $title-color;
+
+  span {
+  	display: inline-block;
+    vertical-align: top;
+  	font-size: 24px;
+  }
+}
+
+.list-pricing {
+	margin: 0;
+	margin-top: 30px;
+	padding: 0;
+	list-style: none;
+}
+
+.list-pricing__item {
+	padding: 12px 0;
+	border-top: 1px solid $border-color-secondary;
+
+	&:last-child {
+		padding-bottom: 0;
+	}
+}
+
+.pricing-column__footer {
+	padding: 20px;
+	background-color: $primary-color;
+}
+
+.pricing-column__button {
+	display: inline-block;
+	padding: 15px 30px;
+	background-color: $btn-bg-color;
+	text-transform: uppercase;
+	font-family: 'Myriad Pro';
+  	font-size: 15px;
+  	font-weight: 600;
+  	line-height: 1;
+  	color: $white-color;
+  	text-decoration: none;
+  	transition: all 0.3s ease;
+
+  	&:hover {
+  		background-color: $white-color;
+  		color: $btn-bg-color;
+  	}
+}
