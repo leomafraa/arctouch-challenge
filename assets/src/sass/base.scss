@@ -17,6 +17,10 @@
 	padding: 0 15px;
 }
 
+.container--tiny {
+	max-width: 1000px;
+}
+
 .default-section--bg {
 	background-color: $bg-color;
 }
@@ -50,6 +54,8 @@
 	}
 }
 
-.bullet-item__link--active {
-	background-color: $primary-color;
+.bullet-item--active {
+	.bullet-item__link {
+		background-color: $primary-color;
+	}
 }

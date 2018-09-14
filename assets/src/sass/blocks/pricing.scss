@@ -1,5 +1,6 @@
 .pricing-items {
-	margin-top: 40px!important;	
+	margin-top: 40px!important;
+	margin-bottom: -130px!important;
 }
 
 .pricing-column {
@@ -40,13 +41,13 @@
 
 .list-pricing {
 	margin: 0;
-	margin-top: 30px;
+	margin-top: 25px;
 	padding: 0;
 	list-style: none;
 }
 
 .list-pricing__item {
-	padding: 12px 0;
+	padding: 10px 0;
 	border-top: 1px solid $border-color-secondary;
 
 	&:last-child {
